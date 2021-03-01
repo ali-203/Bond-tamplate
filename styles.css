@@ -83,7 +83,7 @@ background-color: #FE9C00;
 }
 
 .product-div {
-    height: 700px;
+    height: 900px;
     background-color: #FE9C00;
    
 }
@@ -130,7 +130,7 @@ background-color: #FE9C00;
     margin-top: 10px;
 }
 .div-one p{
-    font-size: 11px;
+    font-size: 8px;
     margin-top: 10px;
 }
 
@@ -148,7 +148,8 @@ background-color: #FE9C00;
     margin-top: 10px;
 }
 .div-two p{
-    font-size: 11px;
+    color: 999999;
+    font-size: 8px;
     margin-top: 10px;
 }
 
@@ -167,12 +168,16 @@ background-color: #FE9C00;
     margin-top: 10px;
 }
 .div-three p{
-    font-size: 11px;
+color:999999;
+    font-size: 8px;
     margin-top: 10px;
 }
 
-
-
+@media screen and (max-width: 800px) {
+.first-three {
+display: flex;
+flex-wrap: wrap;
+}
 
 
 

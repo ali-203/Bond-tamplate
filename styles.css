@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-image: url("./images/pexels-karolina-grabowska-4386431\ 1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0% 43%;
+    height: 480px;
+}
+
+
+.main_digital{
+    margin-right: 30px;
+    padding-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 67px;
+}
+
+.nav-div a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.nav-div {
+    margin-right: 70px;
+}
+.login {
+ color: #FE9C00;
+  background: transparent;
+outline: none;
+width: 73px;
+height: 29px;
+border-radius: 14px;
+border: 2px solid #FE9C00;
+}
+
+.line {
+    margin-top: 7px;
+margin-right: 85px;
+margin-left: 58px;
+}
+.text-digital {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 130px;
+}
+
+.text-digital p{
+font-size: 25px;
+color: white;
+}
+.text-digital h1{
+font-size: 50px;
+    color: white;
+}
+
+.bond{
+    color:#FE9C00;
+    
+}
+.text-digital h5{
+    color: white;
+    font-weight: 100;
+}
+
+.buy{
+border-radius: 16px;
+margin-top: 25px;
+height: 32px;
+width: 100px;
+outline: none;
+border: none;
+background-color: #FE9C00;
+}
+
+.product-div {
+    height: 700px;
+    background-color: #FE9C00;
+   
+}
+.bond-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bond-text h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.bond-text p{
+    width: 74%;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.first-three {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.div-one {
+    border: 2px solid white;
+}
+.div-two {
+    border: 2px solid white;
+}
+.div-three {
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+

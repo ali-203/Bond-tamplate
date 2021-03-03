@@ -21,10 +21,12 @@ body{
     padding-top: 20px;
     justify-content: space-between;
     display: flex;
-    padding-left: 67px;
+    margin-left: 60px;
 }
 
 .nav-div a{
+    font-weight: normal;
+    font-size: 15px;
     color: white;
     text-decoration: none;
     padding-right: 20px;
@@ -83,8 +85,8 @@ background-color: #FE9C00;
 }
 
 .product-div {
-    /* height: 900px; */
-    padding-bottom: 35px;
+    
+    padding-bottom: 50px;
     background-color: #FE9C00;
    
 }
@@ -103,9 +105,8 @@ background-color: #FE9C00;
     color: #FFFFFF;
 }
 .bond-text p{
-    width: 74%;
-   
-    font-size: 17px;
+    width: 60%;
+    font-size: 14px;
     margin-top: 20px;
 }
 .first-three {
@@ -113,6 +114,7 @@ background-color: #FE9C00;
     margin-right: 30px;
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;   
 }
 .first-four {
@@ -120,6 +122,7 @@ background-color: #FE9C00;
     margin-right: 30px;
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -290,6 +293,7 @@ line-height: 40px;
     text-align: center;
 }
 .footer-div  h6{
+    font-size: 10px;
     color: white;
 }
 .footer-div h2{
@@ -297,19 +301,21 @@ line-height: 40px;
     font-weight: 500;
 }
 .left-right {
-    background-color:#292929;
+    background-color: #292929;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding-bottom: 30px;
 }
 .div-left {
-    margin-left: 70px;
+    
     background-color:#292929;
-flex: 40%;
+/* flex: 40%; */
 }
 
 .div-right{
     background-color:#292929;
-    flex: 30%;
+    /* flex: 20%; */
 }
 
 .div-left h1 {
@@ -318,14 +324,15 @@ color: white;
 font-weight: 100;
 }
 .div-left p{
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 20px;
     color: white;
+    
     
 }
 .logo{
     background-color:#292929;
-    flex: 30%;
+    /* flex: 40%; */
 }
 
 .div-left button{
@@ -333,7 +340,7 @@ font-weight: 100;
     color: #FE9C00;
     background: transparent;
     outline: none;
-    width: 73px;
+    width: 85px;
     height: 29px;
     border-radius: 14px;
     border: 1px solid #FE9C00;
@@ -353,11 +360,23 @@ font-weight: 100;
     line-height: 22px;
     list-style-type: none;
 }
-
 .images-four {
-    font-size: 88px;
+    letter-spacing: -3px;
+    font-size: 86px;
 }
-    
+.end {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background-color: #292929;
+}
+.end p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 80px;
+    color: white;
+}
+
     
 
 

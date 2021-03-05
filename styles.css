@@ -110,20 +110,20 @@ background-color: #FE9C00;
     margin-top: 20px;
 }
 .first-three {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;   
-}
-.first-four {
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly; 
+}
+.first-four {
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 
@@ -131,9 +131,11 @@ background-color: #FE9C00;
 .div-one {
     background: #FFFFFF;
     width: 270px;
-    margin-right: 40px;
-      height: 280px; 
-      text-align: center;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    /* height: 285px; */
+    padding: 40px;
+    text-align: center;
    
 }
 .div-one h4{
@@ -142,7 +144,7 @@ background-color: #FE9C00;
     margin-top: 10px;
 }
 .div-one p{
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 10px;
 }
 
@@ -150,9 +152,11 @@ background-color: #FE9C00;
 .div-two {
     background: #FFFFFF;
     width: 270px;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    /* height: 285px; */
+    padding: 40px;
     text-align: center;
-    padding: 20px;
-    /* border: 2px solid white; */
 }
 .div-two h4{
     font-size: 20px;
@@ -161,17 +165,18 @@ background-color: #FE9C00;
 }
 .div-two p{
     color: 999999;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 10px;
 }
 
 .div-three {
     background: #FFFFFF;
     width: 270px;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    /* height: 285px; */
+    padding: 40px;
     text-align: center;
-     padding: 20px; 
-     margin-left: 40px; 
-    /* border: 2px solid white; */
 }
 
 .div-three h4{
@@ -181,7 +186,7 @@ background-color: #FE9C00;
 }
 .div-three p{
 color:999999;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 10px;
 }
 
@@ -327,14 +332,11 @@ font-weight: 100;
     font-size: 13px;
     margin-top: 20px;
     color: white;
-    
-    
 }
 .logo{
     background-color:#292929;
     /* flex: 40%; */
 }
-
 .div-left button{
     margin-top: 22px;
     color: #FE9C00;
